@@ -96,6 +96,13 @@ TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 USE_OPENGL_RENDERER := true
 
+# HIDL
+DEVICE_MANIFEST_FILE := \
+    $(DEVICE_PATH)/manifest.xml
+
+DEVICE_MATRIX_FILE := \
+    $(DEVICE_PATH)/compatibility_matrix.xml
+
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2023-11-01
 
