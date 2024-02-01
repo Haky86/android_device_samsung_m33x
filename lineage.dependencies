@@ -1,2 +1,6 @@
 [
+  {
+    "repository": "android_kernel_samsung_m33x",
+    "target_path": "kernel/samsung/m33x"
+  }
 ]
