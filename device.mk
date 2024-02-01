@@ -66,5 +66,10 @@ PRODUCT_PACKAGES += \
 TARGET_SCREEN_HEIGHT := 2408
 TARGET_SCREEN_WIDTH := 1080
 
+# Graphics
+PRODUCT_PACKAGES += \
+    libion \
+    libvulkan \
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/m33x/m33x-vendor.mk)
