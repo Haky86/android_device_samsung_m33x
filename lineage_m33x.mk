@@ -24,7 +24,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_NAME := lineage_m33x
 PRODUCT_DEVICE := m33x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-M336B
+PRODUCT_MODEL := SM-M336
 PRODUCT_MANUFACTURER := samsung
 
 # Use the latest approved GMS identifiers
